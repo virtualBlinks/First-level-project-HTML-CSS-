@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidecontainerr{
+    height: fit-content;
+     position: fixed;
+       background-color:black;
+       width: fit-content;
+}
+.sidecontainerr:hover{
+    border-right: 1px solid rgba(96, 96, 96, 0.587);
+}
+
+.majorb{
+    line-height: 30px;
+    padding: 20px 0px;
+    
+    .home{
+        font-size: large;
+        margin-left: 20px;
+        cursor: pointer;
+       
+    }
+}
+
+.majorbb{
+    width: 300px;
+    height: 390px;
+    margin-left: 10px;
+    /* position: relative; */
+    line-height: 50px;
+    padding: 10px 0px;
+    background-color:#121212;
+    margin-top: 5px;
+
+    
+
+    .home{
+        font-size: large;
+        margin-left: 10px;
+        cursor: pointer;
+       
+    }
+    .scrol{
+    height: 70px;
+    white-space: 100%;
+    background-color:black;
+    margin-top: 15px;
+   
+}
+
+.scrol::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 5px;
+    background-color: rgb(203, 202, 202);
+     display:none
+}
+
+.scrol::-webkit-scrollbar-thumb{
+background-color:grey;
+border-radius: 5px;
+}
+
+.lib{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+
+.scrol1{
+  
+   padding: 0px 0px 15px 30px;
+   background-color: #242424;
+   
+ .btn{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 40px;
+   }
+
+}
+.scrolt2{
+    margin-top: 20px;
+   padding:  0px 0px 15px 30px;
+   background-color: #242424;
+   .btn2{
+    height: 40px;
+    width: 170px;
+    font-weight: bold;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+}
+
+
+}
+
+.gg{
+    padding-right:10px ;
+}
+  .scrold{
+    height: 280px;
+    white-space: 100%;
+    background-color:black;
+    margin-top: 15px;
+    line-height: 20px;
+
+    .pp{
+        font-size: 16px;
+        font-weight: bold;
+    }
+   
+}
+
+.scrold::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 5px;
+    background-color: rgb(203, 202, 202);
+     display:none
+}
+.scrold:hover::-webkit-scrollbar{
+    display: block;
+    
+}
+
+.scrold n::-webkit-scrollbar-thumb{
+background-color:grey;
+border-radius: 5px;
+}
+.hhk{
+    position: relative;
+    background-color:black;
+    height: 5100px;
+    width: 100%;
+}
+
+
+.cardpage1{
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1a1a1a;
+    height: 80px;
+    z-index: 10;
+
+    .jojo{
+  
+   margin-right: 80px;
+    }
+
+    .jojojo{
+ margin-right: 10px;
+    }
+   
+
+    .btn{
+        width: 140px;
+        height: 35px;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+    .btnn{
+        border: none;
+        width: 120px;
+        height: 35px;
+        border-radius: 30px;
+        font-size: 14px;
+        background-color: black;
+    }
+    .nnpc{
+        background-color:black;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 100%;
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+
+     }
+     .nnpcc{
+        background-color:black;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 100%;
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+
+     }
+
+     .not{
+        position: absolute;
+        right: 65px;
+        
+     }
+     .acctt{
+        position: absolute;
+        right: 20px;
+       
+
+       
+     }
+     .not p{
+        color: white;
+        position: absolute;
+        right: 0;
+        width: 100px;
+        display: none;
+        background-color: #1f1f1f;
+         box-shadow: 0px 0px 4px 2px rgba(45, 45, 45, 0.502);
+        text-align: center;
+        border: none;
+        padding: 6px;
+        font-size: 14px;
+       
+      }
+     .not:hover p{
+        display: block;
+        transition: 5s linear;
+       
+     }
+     .acctt p{
+        color: white;
+        position: absolute;
+       right: 0;
+       display: none;
+       background-color:#1f1f1f;
+       box-shadow:  0px 0px 4px 2px rgba(24, 24, 24, 0.89);
+      text-align: center;
+      border: none;
+      padding: 6px;
+      font-size: 14px;
+       
+    }
+   
+    .acctt:hover p{
+        display: block;
+    }
+    .dropdown ul{
+        position: absolute;
+        background-color: rgb(36, 36, 36);
+       width: 210px;
+       height: 320px;
+       right: 5px;
+       padding: 5px 15px;
+       border-radius: 10px;
+       color: white;
+       line-height: 35px;
+       display: none;
+            
+    }
+
+    .acctt:focus-within .dropdown ul{
+        display: block;
+    }
+
+    .dp  li{
+    color:white;
+    font-size: 14px;
+    padding: 4px;
+    list-style: none;
+        
+    }
+    .dp hr{
+        position: absolute;
+        color: #ffffff;
+        width: 210px;
+        right: 0px;
+        bottom: 35px;
+    }
+    .dp li a{
+        color: white;
+        text-decoration: none;
+       }
+
+       .gkg{
+        float: right;
+       
+        }
+    }
+    
+
+         
+    .direction2{
+        margin-left: 20px;
+        width: max-content;
+        height: max-content;
+            }
+
+    .dir{
+        padding: 6px 8px;
+        color: white;
+        background-color: black;
+        border-radius: 100px;
+        cursor: not-allowed;
+    }
+    .logsign2{
+        margin-right: 20px;
+        display: flex;
+    }
+
+   .carder{
+    position: absolute;
+    background: linear-gradient(to top, rgb(16, 16, 16), rgb(16, 16, 16), rgba(26, 26, 26, 0.995));
+    top: 85px;
+    right: 0;
+    width: 75%;
+    height: 5000px;
+    border-radius: 10px;
+}
+
+
+
+.cardrow11{
+   position: absolute;
+   width: 948px;
+    
+   }
+
+ .cardrow2{
+    display: flex;
+    width: 948px;
+ }
+
+   .cardrow3{
+    position: absolute;
+    top: 920px;
+   
+    width: 920px;
+   
+   }
+
+
+.card3{
+    display: flex;
+    margin-left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 1050px;
+   
+}
+
+
+   .cardrow4{
+   
+    position: absolute;
+    top: 1400px;
+    width: 935px;
+   
+   }
+
+   .card4{
+    display: flex;
+    left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 1500px;
+   }
+   .cardrow5{
+    position: absolute;
+    top: 1800px;
+    width: 935px;
+
+   }
+
+.card5{
+    display: flex;
+    left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 1900px;
+   }
+   .cardrow6{
+    width: 0px;
+    position: absolute;
+    top: 2300px;
+    width: 935px;
+    
+   }
+
+.card6{
+    display: flex;
+    left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 2400px;
+   }
+
+   .cardrow7{
+    width: 0px;
+    position: absolute;
+    top: 2750px;
+    width: 935px;
+  
+   }
+
+.card7{
+    display: flex;
+    left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 2850px;
+   }
+
+
+   .cardrow8{
+    width: 0px;
+    position: absolute;
+    top: 3200px;
+    width: 935px;
+   
+   }
+
+.card8{
+    display: flex;
+    left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 3300px;
+   }
+
+   .cardrow9{
+    width: 0px;
+    position: absolute;
+    top: 3650px;
+    width: 935px;
+   
+   }
+
+.card9{
+    display: flex;
+    left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 3750px;
+   }
+
+   .cardrow10{
+    width: 0px;
+    position: absolute;
+    top: 4100px;
+    width: 935px;
+    
+   }
+
+.card10{
+    display: flex;
+    left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 4200px;
+   }
+
+ .spaba{
+    position: absolute;
+    left: 20px;
+    top: 4950px;
+    display: flex;
+   gap: 200px;
+
+ } 
+ .spa{
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+
+ } 
+ .spaa{
+    font-size: 14px;
+ }
+
+   .footer1{
+    position: absolute;
+    
+    top: 4600px;
+    left: 20px;
+    color: white;
+    display: flex;
+    gap:140px ;
+    height: 280px;
+   
+    border-bottom: 1px solid rgba(128, 128, 128, 0.416);
+
+    .footersection1 h3{
+        font-size: 20px;
+       }
+        
+       .footersection2 h3{
+           font-size: 20px;
+       }
+       
+       .footersection3 h3{
+           font-size: 20px;
+       
+       } 
+       
+       .footersection1 p{
+           font-size: 16px;
+          }
+          .footersection1 p:hover{
+            text-decoration: underline;
+          }
+          .footersection2 p{
+              font-size: 16px;
+          }
+          .footersection2 p:hover{
+            text-decoration: underline;
+          }
+          .footersection3 p{
+              font-size: 16px;
+          
+          } 
+          .footersection3 p:hover{
+            text-decoration: underline;
+          }
+
+          .footersection4{
+            display: flex;
+            gap: 20px;
+            
+        }
+    
+    .footersection4{
+        display: flex;
+        
+    }
+     
+    
+    .dd{
+        padding: 7px 10px;
+        background-color:#3b3b3b;
+        border-radius: 100px;
+        
+    }
+    .dd:hover{
+        background-color: rgb(170, 170, 170);
+    }
+}

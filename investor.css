@@ -1,0 +1,1113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.investormain{
+    position: relative;
+    height: 930px;
+    background: linear-gradient(to bottom, rgb(46,72,184),rgb(38, 69, 95),rgb(73,140,128));
+    align-items: center;
+}
+.investornav{
+    display: flex;
+    align-items: center;
+    gap: 250px;
+   /* position: fixed; */
+    padding: 20px 50px 0px 70px;
+    z-index: 1;
+  
+
+    #sppnn{
+        display: flex;
+        .ggg{
+            font-size: 32px;
+         }
+
+         #ggt{
+            font-size: 24px;
+            font-weight: 500;
+            color: white;
+         }
+    }
+   
+    #jigg{
+        display: flex;
+        margin-top: 20px 
+    }
+        .sup{
+            font-size: 8px;
+            color: white;
+           
+        }
+    }
+
+    .lister .favor{
+        display: flex;
+        gap: 40px;
+    }
+
+    .lister ul .dec:hover{
+        text-decoration: underline;
+        color: white;
+    }
+
+    .lister ul .dec{
+        list-style: none;
+        color: white;
+        font-weight: 500;
+    }
+  .contentforfin{
+    position: absolute;
+    top: 60px;
+    height: 130px;
+    width: 200px;
+    background-color:white;
+    border-radius: 2px;
+    display: none;
+    z-index: 1;
+   
+  }
+
+  
+  .dec:hover .contentforfin{
+    display: block;
+  }
+  .contentforfin ul{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+  
+    line-height: 40px;
+  }
+  .contentforfin ul li{
+    list-style: none;
+    
+   
+  }
+
+  .contentforfin1{
+    position: absolute;
+    top: 60px;
+    height: 210px;
+    width: 200px;
+    background-color:white;
+    border-radius: 2px;
+    display: none;
+    z-index: 1;
+   
+  }
+
+  .dec:hover .contentforfin1{
+    display: block;
+  }
+  .contentforfin1 ul{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  
+    line-height: 40px;
+  }
+  .contentforfin1 ul li{
+    list-style: none;
+    
+   
+  }
+  .hh{
+    font-weight: 500px;
+  }
+  .contentforfin2{
+    position: absolute;
+    top: 60px;
+    height: 80px;
+    width: 200px;
+    background-color:white;
+    border-radius: 2px;
+    display: none;
+    z-index: 1;
+   
+  }
+
+  .dec:hover .contentforfin2{
+    display: block;
+  }
+  .contentforfin2 ul{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+  
+    line-height: 40px;
+  }
+  .contentforfin2 ul li{
+    list-style: none;
+    
+  }
+  .vidcon{
+    position: absolute;
+    top: 100px;
+    height: 350px;
+    width:600px;
+    left: 40px;
+   
+
+    
+  }
+  .textvid{
+    position: absolute;
+    top: 180px;
+    left: 670px;
+    width: 450px;
+
+ 
+ }
+ .textvid h1{
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+}
+.textvid p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(237, 237, 237);
+
+}
+.tablecon{
+    position: absolute;
+    top: 550px;
+    width: 100%;
+}
+
+.int{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 30px;
+}
+
+.int h2{
+    color: white
+}
+.int p{
+    color: white
+}
+.linee{
+    width: 100%;
+   border: 1px solid white;
+   z-index: 1;
+
+}
+
+.gtble{
+    display: flex;
+    position: absolute;
+    top: 647px;
+}
+.gttable{
+    padding: 20px 0px 0px 15px;
+    width: 315px;
+    height: 285px;
+    border-right:1px solid rgba(255, 255, 255, 0.616) ;
+}
+.gttable i{
+    color: white;
+    font-size: 24px;
+}
+.gttable h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.gttable button{
+   
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 180px;
+    height: 50px;
+    left: 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+}
+.gttable button:hover{
+    background-color: white;
+    border: none;
+    color:black;
+}
+
+.investwbg{
+    position: relative;
+    height: 1400px;
+    background:linear-gradient(to bottom, rgb(255, 255, 255),rgb(218, 208, 244),rgba(78, 17, 246, 0.838));
+
+}
+
+.investwbg h1{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 125px;
+    font-weight: 700;
+
+}
+.investwbg p{
+    position:absolute;
+    top: 200px;
+    left: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 270px;
+
+}
+.boxercon{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+}
+
+
+
+.box9{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 40px;
+    height:30px;
+   
+}
+.boxinf{
+    position: relative;
+    top: 4px;
+    right: 3px;
+    height: 6px;
+    width: 6px;
+    padding:3px 3px;
+    background-color: black;
+}
+.boxinfn{
+    position: relative;
+    
+    right: 3px;
+    height: 6px;
+    width: 6px;
+    padding:3px 3px;
+    background-color: black;
+}
+
+.boxin{
+    height: 6px;
+    width: 6px;
+    padding:3px 3px;
+    background-color: black;
+}
+
+.whitbutton{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+
+}
+.whitbutton:hover{
+    text-decoration: underline;
+}
+.whitelist{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    line-height: 30px;
+      
+}
+.whitelist ul{
+    padding: 0;
+}
+
+.whitelist li{
+    list-style: none;
+    
+   
+}
+.whitelist li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 14px;
+    font-weight: 500;
+    
+    
+}
+.whitelist li a:hover{
+    color:#784af8;
+}
+
+.whitebox img{
+    height: 180px;
+    width: 250px;
+   margin-left: 15px;
+   margin-top: 15px;
+   
+}
+
+
+.boxsup{
+    position: absolute;
+    top: 320px;
+    left: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.whitebox{
+    height: 470px;
+    width: 280px;
+    left: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(100, 100, 100, 0.486);
+}
+.whitebox h5{
+   
+    margin-left: 15px;
+    margin-top:10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4709f5;
+}
+.whitebox h3{
+    margin-left: 15px;
+    margin-top:30px;
+    font-size: 19px;
+    font-weight: 700;
+    width: 250px;
+}
+.whitebox h3:hover{
+    color: #4709f5;
+}
+.whitebox h4{
+    position: sticky;
+    margin-left: 15px;
+     margin-top:140px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(118, 118, 118);
+   
+}
+
+.whitebox .h4{
+    position: sticky;
+    margin-left: 15px;
+     margin-top:120px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(118, 118, 118);
+   
+}
+.whitebox .h44{
+    position: sticky;
+    margin-left: 15px;
+     margin-top:75px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(118, 118, 118);
+   
+}
+.whitebox .h444{
+    position: sticky;
+    margin-left: 15px;
+     margin-top:95px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(118, 118, 118);
+   
+}
+.pressrelease{
+    height: 1300px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(255,255,255),rgba(144, 199, 182, 0.909),rgb(83, 136, 120));
+}
+
+.pressrelease h1{
+    width: 300px;
+    line-height: 100px;
+    padding-top: 70px;
+    margin-left: 50px;
+    font-size: 125px;
+    font-weight: 700;
+
+}
+.pressrelease p{
+   
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 330px;
+}
+.boxerconn{
+    display: flex;
+    gap: 20px;
+    margin: 50px 0px 0px 50px;
+  
+}
+.whitbuttonn{
+   margin: 20px 0px 0px 50px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+
+}
+.whitbuttonn:hover{
+    text-decoration: underline;
+}
+.gwbox{
+    position: absolute;
+    display: block;
+     top: 350px;
+     left: 380px;
+     gap: 40px;
+     height: max-content;
+}
+
+
+.greenboxw{
+   margin-top: 20px;
+    height: 110px;
+    width: 850px;
+    line-height: 60px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(100, 100, 100, 0.486);
+}
+.greenboxww{
+    margin-top: 20px;
+     height: 130px;
+     width: 850px;
+     line-height: 60px;
+     background-color: white;
+     box-shadow: 0px 0px 10px 2px rgba(100, 100, 100, 0.486);
+ }
+
+.greenboxw h3{
+    font-size: 18px;
+    width: 700px;
+    padding: 20px 0px 0px 20px;
+    font-weight: 600;
+}
+.greenboxw h3:hover{
+    text-decoration: underline;
+}
+.greenboxw span{
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 600;
+    color: #242424a8;
+}
+.greenboxww h3{
+    font-size: 18px;
+    width: 700px;
+    padding: 20px 0px 0px 20px;
+    font-weight: 600;
+}
+.greenboxww h3:hover{
+    text-decoration: underline;
+}
+.greenboxww span{
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 600;
+    color: #242424a8;
+}
+.aboutsportify{
+    position: relative;
+    height: 3600px;
+    background:linear-gradient(to bottom,rgb(223, 226, 237),rgb(255, 255, 255),rgb(196, 207, 251),rgb(68, 91, 194),rgb(45, 70, 180));
+
+}
+
+.aboutsportify h1{
+    width: 300px;
+    line-height: 100px;
+    padding-top: 50px;
+    margin-left: 50px;
+    font-size: 125px;
+    font-weight: 700;
+
+}
+.aboutsportify p{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 330px;
+}
+.righttext{
+    top: 650px;
+    left: 600px;
+    width: 550px;
+}
+
+.righttext h3{
+   font-size: 50px;
+   font-weight: 700px;
+}
+.righttext strong{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000ac;
+ }
+
+.ourplt{
+    position: absolute;
+    left: 300px;
+    top: 950px;
+    display: flex;
+    gap: 20px;
+}
+.ourplt1{
+    height: 360px;
+    width: 280px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(100, 100, 100, 0.486);
+}
+.ourplt1 img{
+    height: 200px;
+    width: 240px;
+    margin: 20px 20px 0px 20px;
+}
+.ourplt1 h5{
+   
+    margin-left: 15px;
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4709f5;
+}
+.ourplt1 h3{
+    margin-left: 15px;
+    margin-top:30px;
+    font-size: 19px;
+    font-weight: 700;
+    width: 250px;
+}
+.ourplt1 h3:hover{
+    color: #4709f5;
+}
+
+.righttextt{
+    top: 1500px;
+    left: 600px;
+    width: 550px;
+}
+
+.righttextt h3{
+   font-size: 50px;
+   font-weight: 700px;
+}
+.righttextt strong{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000ac;
+ }
+
+.ourpltt{
+    position: absolute;
+    left: 600px;
+    top: 1820px;
+    display: flex;
+    gap: 20px;
+}
+.ourpltt1{
+    height: 360px;
+    width: 280px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(100, 100, 100, 0.486);
+}
+.ourpltt1 img{
+    height: 200px;
+    width: 240px;
+    margin: 20px 20px 0px 20px;
+}
+.ourpltt1 h5{
+   
+    margin-left: 15px;
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4709f5;
+}
+.ourpltt1 h3{
+    margin-left: 15px;
+    margin-top:30px;
+    font-size: 19px;
+    font-weight: 700;
+    width: 250px;
+}
+.ourpltt1 h3:hover{
+    color: #4709f5;
+}
+
+.righttexttt{
+    top: 2350px;
+    left: 600px;
+    width: 550px;
+}
+
+.righttexttt h3{
+   font-size: 50px;
+   font-weight: 700px;
+}
+.righttexttt strong{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000ac;
+ }
+.ourplttt{
+    position: absolute;
+    left: 300px;
+    top: 2650px;
+    display: flex;
+    gap: 20px;
+}
+.ourplttt1{
+    height: 360px;
+    width: 280px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(100, 100, 100, 0.486);
+}
+.ourplttt1 img{
+    height: 200px;
+    width: 240px;
+    margin: 20px 20px 0px 20px;
+}
+.ourplttt1 h5{
+   
+    margin-left: 15px;
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4709f5;
+}
+.ourplttt1 h3{
+    margin-left: 15px;
+    margin-top:30px;
+    font-size: 19px;
+    font-weight: 700;
+    width: 250px;
+}
+.ourplttt1 h3:hover{
+    color: #4709f5;
+}
+.pour{
+    position: relative;
+    top: 200px;
+    left: 30px;
+    padding: 7px 10px;
+    color: #4709f5 ;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 100%;
+}
+.borders{
+    position: absolute;
+    bottom: 300px;
+    height: 400px;
+    width: 700px;
+    border:  1px solid white;
+    border-bottom: none;
+    background-color: transparent;
+
+}
+.borders{
+    position: absolute;
+   
+    height: 400px;
+    width: 700px;
+    border:  1px solid white;
+    border-bottom: none;
+    background-color: transparent;
+
+}
+.borders{
+    position: absolute;
+   
+    height: 400px;
+    width: 700px;
+    border:  1px solid white;
+    border-bottom: none;
+    background-color: transparent;
+
+}
+
+.whitebo{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 50px
+   
+}
+
+
+.borders1{
+    height: 450px;
+    width: 650px;
+    border:  1px solid white;
+    border-bottom: none;
+    background-color: transparent;
+
+}
+.borders1 input{
+    margin-top: 20px;
+    margin-left: 80px;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+    color: white;
+}
+.borders1 label{
+ color: white;
+ margin-top: 80px;
+ margin-left: 80px;
+ font-size: 24px;
+ font-weight: bold;
+}
+.borders1 ::placeholder{
+    color: white;
+}
+.borders1 button{
+    height: 45px;
+    width: 160px;
+    background-color: white;
+    color: #4709f5;
+    border: none;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-weight: 700PX;
+}
+
+.borders1 button:hover{
+  background-color: rgb(2, 3, 52);
+  color: white;
+}
+
+.borders2{
+    margin-top: 100px;
+    height: 350px;
+    width: 500px;
+    border:  1px solid white;
+    border-bottom: none;
+    border-left: 500px;
+    background-color: transparent;
+
+}
+.borders2 h3{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.borders2 p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 14px;
+    
+}
+.borders2 button{
+    height: 45px;
+    width: 160px;
+    background-color: white;
+    color: #4709f5;
+    border: none;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-weight: 700PX;
+}
+
+.borders2 button:hover{
+  background-color: rgb(2, 3, 52);
+  color: white;
+}
+
+.checkers{
+    position: absolute;
+    top: 130px;
+    /* left: 80px; */
+    display: flex;
+    gap: 10px;
+}
+.cbctnt{
+    font-size:14px;
+    font-weight: 500px;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+.checkbox-wrapper-65 *,
+  .checkbox-wrapper-65 ::after,
+  .checkbox-wrapper-65 ::before {
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper-65 .cbx {
+  position: relative;
+  display: block;
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 0px;
+  border: 1px solid white;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,0.15), inset 0 -1px 1px rgba(0,0,0,0.15);
+  transition: all 0.15s ease;
+}
+
+.checkbox-wrapper-65 .cbx svg {
+  position: absolute;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 17;
+  stroke-dashoffset: 17;
+  transform: translate3d(0, 0, 0);
+}
+
+.checkbox-wrapper-65 .cbx + span {
+  float: left;
+  margin-left: 6px;
+}
+
+.checkbox-wrapper-65 {
+  user-select: none;
+}
+
+.checkbox-wrapper-65 label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.checkbox-wrapper-65 input[type="checkbox"] {
+  display: none;
+  visibility: hidden;
+}
+
+.checkbox-wrapper-65 input[type="checkbox"]:checked + .cbx {
+    background-color: transparent;
+    background-image: linear-gradient(#d2be2500, #2bc11d00);
+    border: 2px dotted white;
+}
+
+.checkbox-wrapper-65 input[type="checkbox"]:checked + .cbx svg {
+  stroke-dashoffset: 0;
+  transition: all 0.15s ease;
+}
+
+
+.checkbox-wrapper-651 *,
+  .checkbox-wrapper-651 ::after,
+  .checkbox-wrapper-651 ::before {
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper-651 .cbx {
+  position: relative;
+  display: block;
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 0px;
+  border: 1px solid white;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,0.15), inset 0 -1px 1px rgba(0,0,0,0.15);
+  transition: all 0.15s ease;
+}
+
+
+.checkbox-wrapper-651 .cbx svg {
+  position: absolute;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 17;
+  stroke-dashoffset: 17;
+  transform: translate3d(0, 0, 0);
+}
+
+.checkbox-wrapper-651 .cbx + span {
+  float: left;
+  margin-left: 6px;
+}
+
+.checkbox-wrapper-651 {
+  user-select: none;
+  
+}
+
+.checkbox-wrapper-651 label {
+  display: inline-block;
+  cursor: pointer;
+  
+}
+
+.checkbox-wrapper-651 input[type="checkbox"] {
+  display: none;
+  visibility: hidden;
+}
+
+.checkbox-wrapper-651 input[type="checkbox"]:checked + .cbx {
+    background-color: transparent;
+    background-image: linear-gradient(#d2be2500, #2bc11d00);
+    border: 2px dotted white;
+}
+
+.checkbox-wrapper-651 input[type="checkbox"]:checked + .cbx svg {
+  stroke-dashoffset: 0;
+  transition: all 0.15s ease;
+  
+}
+
+.checkbox-wrapper-652 *,
+  .checkbox-wrapper-651 ::after,
+  .checkbox-wrapper-651 ::before {
+  box-sizing: border-box;
+}
+
+.checkbox-wrapper-652 .cbx {
+  position: relative;
+  display: block;
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 0px;
+  border: 1px solid white;
+  box-shadow: inset 0 1px 1px rgba(255,255,255,0.15), inset 0 -1px 1px rgba(0,0,0,0.15);
+  transition: all 0.15s ease;
+}
+
+.checkbox-wrapper-652 .cbx svg {
+  position: absolute;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 17;
+  stroke-dashoffset: 17;
+  transform: translate3d(0, 0, 0);
+}
+
+.checkbox-wrapper-652 .cbx + span {
+  float: left;
+  margin-left: 6px;
+}
+
+.checkbox-wrapper-652 {
+  user-select: none;
+}
+
+.checkbox-wrapper-652 label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.checkbox-wrapper-652 input[type="checkbox"] {
+  display: none;
+  visibility: hidden;
+}
+
+.checkbox-wrapper-652 input[type="checkbox"]:checked + .cbx {
+  background-color: transparent;
+  background-image: linear-gradient(#d2be2500, #2bc11d00);
+  border: 2px dotted white;
+}
+
+.checkbox-wrapper-652 input[type="checkbox"]:checked + .cbx svg {
+  stroke-dashoffset: 0;
+  transition: all 0.15s ease;
+}
+
+.dblack{
+    position: relative;
+    height: 450px;
+    width: 100%;
+   top:0;
+    background-color: black;
+}
+
+.blackfoot{
+    display: flex;
+    position: absolute;
+    align-items: top;
+    left: 50px;
+  gap: 300px;
+    top: 80px;
+}
+.closef{
+    display: flex;
+    gap: 100px;
+    justify-content: left;
+}
+
+
+.sppax{
+
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    gap: 20px;
+    left: 50px;
+    color: white;
+    font-weight: normal;
+}
+.footi .hh3{
+   font-size: 14px;
+   color: rgba(255, 255, 255, 0.55);
+}
+.footi p:hover{
+    color: #16a653;
+ }
+.footersct button{
+    background-color: transparent;
+    border: none;
+}
+.footersct button:hover .lg{
+    color: #16a653;
+}
+ .footersct .lg{
+    background: transparent;
+     border: none;
+     padding: 12px 16px;
+     font-size: 18px;
+     color: white;
+     border-radius: 100px;
+     background-color: rgba(45, 45, 45, 0.53);
+ }
+ .getspo{
+    margin-top: 40px;
+    border: none;
+    width: 170px;
+    height: 45px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: #16a653;
+    transition: 1s ease;
+    box-shadow: 5px 5px 20px 10px white  inset;
+ }
+ .getspo:hover{
+   background-color: white;
+ }

@@ -1,0 +1,430 @@
+/* ***********accountoverview****** */
+*{
+    margin:0;
+    padding: 0;
+}
+.nava{
+    height: 1800px;
+    background-color:#121212;
+}
+.jiggy{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #121212;
+
+    .spn{
+        display: flex;
+        padding-left: 70px;
+    }
+    .spn p{
+        color: white;
+        font-size: 32px;
+    }
+    
+    .jigg{
+        padding-top: 15px;
+    }
+    .ggg{
+        margin-right: 10px;
+        font-size: 40px;
+    }
+    .sup{
+        font-size: 7px;
+        padding-top: 30px;
+        padding-left: 5px;
+        color: white;
+    
+    }
+}
+.jiggy .lp{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    width: fit-content;
+    padding-right: 70px;
+}
+.lp li a{
+    color: white;
+    text-decoration: none;
+}
+.psec{
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   border: none;
+   color: white;
+   
+}
+.psec:hover{
+    color: #1ed760;
+}
+.aje{
+    margin-right: 15px;
+    font-size: 40px;
+    
+}
+.sho{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.hid{
+    display: none;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+
+
+.dropdn ul{
+    position: absolute;
+    width: 170px;
+    background-color: white;
+    top: 95px;
+    right: 70px;
+    list-style: none;
+    padding: 10px 15px;
+    line-height: 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    display: none;
+   
+}
+.dropdn ul a{
+    color: black;
+  margin-right: 40px;
+}
+.dropdn ul a:hover{
+    color: #1ed760;
+}
+
+.dropdn .dx a{
+    color: #5b5d5c90;
+}
+
+.psec:focus-within .dropdn ul{
+    display: block;
+}
+
+
+.bzone{
+    background-color: #232323;
+    height: 250px;
+   width: 510px;
+   margin-left: 270px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 10px 10px  rgba(30, 30, 30, 0.767);
+
+
+    
+    .dg{
+        color: rgb(202, 202, 202);
+        font-size: 30px;
+
+        
+    }
+
+   .plan{
+    color: white;
+    font-size: 8px;
+    
+   } 
+
+   .free{
+    color:rgba(202, 202, 202);
+    font-size: 32px;
+   }
+   .divdg{
+    position: absolute;
+    right: 10px;
+   }
+   .explor{
+    position: absolute;
+    right: 10px;
+    top: 200px;
+    color: white;
+    background-color:  #232323;
+    border: 1px solid rgba(255, 255, 255, 0.374);
+    height: 30px;
+    width: 130px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+  
+   }
+
+    
+}
+.bzone:hover{
+    background-color:rgb(6, 6, 6);
+    transform: scale(1);
+    transition: all 1s ease-out;
+   box-shadow: none;
+
+    
+   }
+.divplan{
+    position: absolute;
+    margin-left: 10px;
+   
+    width: max-content;
+}    
+.jplans{
+    position: relative;
+    display: flex;
+    gap: 300px;
+    padding-top: 5px;
+   
+}
+.purple{
+    position: relative;
+    width: 210px;
+    height: 250px;
+    border-radius: 8px;
+    left: 800px;
+    bottom: 250px;
+    background: linear-gradient( to top, rgb(145, 24, 120),rgb(107, 46, 157),rgb(66, 51, 168));   
+    box-shadow: inset 0px 0px 10px 10px rgba(249, 196, 238, 0.043);   
+
+}
+.purple:hover{
+    background: linear-gradient( to top, rgb(71, 12, 60),rgb(56, 20, 85),rgb(32, 24, 84));   
+    transition: all 1s ease-out;
+   box-shadow: none;
+   
+}
+.divdiamond{
+    position: absolute;
+   top: 90px;
+   left: 60px;
+   text-align: center;
+}
+.diamond{
+
+    color: white;
+    font-size: 24px;
+}
+.diamondt{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}   
+
+.accounts{
+    position: absolute;
+    background-color: rgb(35,35,35);
+    color: white;
+    width: 745px;
+    height: 250px;
+    top: 370px;
+    left: 270px;
+    border-radius: 5px;
+
+
+    
+}
+.accounts p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.accounts ul{
+    list-style: none;
+    padding:5px 10px;
+    line-height: 60px;
+
+}
+
+
+.dkk{
+    margin-right: 10px;
+    padding: 10px;
+    background-color: rgb(51,51,51);
+    border-radius: 2px;
+}
+.dk{
+    float: right;
+}
+
+.accounts ul a{
+    color: white;
+    text-decoration: none;
+    
+}
+.accounts ul li{
+   position: relative;
+   right: 10px;
+    width: 745px ;
+    padding:0px 10px;
+   
+}
+
+.accounts ul li:hover{
+    background-color: rgb(21, 21, 21);
+    border-radius: 5px;
+    
+
+}
+.accountss{
+    position: absolute;
+    background-color: rgb(35,35,35);
+    color: white;
+    width: 745px;
+    height: 250px;
+    top: 650px;
+    left: 270px;
+    border-radius: 5px;
+}
+.accountss p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.accountss ul{
+    list-style: none;
+    padding:5px 10px;
+    line-height: 60px;
+
+}
+.accountss ul a{
+    color: white;
+    text-decoration: none;
+    
+}
+.accountss ul li{
+   position: relative;
+   right: 10px;
+    width: 745px ;
+    padding:0px 10px;
+   
+}
+
+.accountss ul li:hover{
+    background-color: rgb(21, 21, 21);
+    border-radius: 5px;
+    
+
+}
+
+.accountsss{
+    position: absolute;
+    background-color: rgb(35,35,35);
+    color: white;
+    width: 745px;
+    height: 430px;
+    top: 930px;
+    left: 270px;
+    border-radius: 5px;
+}
+.accountsss p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.accountsss ul{
+    list-style: none;
+    padding:5px 10px;
+    line-height: 60px;
+
+}
+.accountsss ul a{
+    color: white;
+    text-decoration: none;
+    
+}
+.accountsss ul li{
+   position: relative;
+   right: 10px;
+    width: 745px ;
+    padding:0px 10px;
+   
+}
+
+.accountsss ul li:hover{
+    background-color: rgb(21, 21, 21);
+    border-radius: 5px;
+}
+
+.blackzone{
+    background-color: #000000;
+    height: 500px;
+    top: 800px;
+    position: relative;
+}
+
+.foott{
+    position: absolute;
+    display: flex;
+    padding-top: 50px;
+    gap: 150px;
+    left: 100px;
+    color: white;
+
+    .hh3{
+        font-size: 14px;
+        padding-bottom: 20px;
+        color: rgb(66, 66, 66);
+    }
+    
+
+    .fint{
+        display: flex;
+        gap:80px;
+    }
+
+    .footersection4{
+        display: flex;
+        gap: 30px;
+       
+       
+        
+    }
+    .footersection4 button{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        background-color: rgb(35,35,35);
+        border: none;
+        color: white;
+
+    }
+    .lk:hover{
+       color: #1ed760;
+    }
+}
+
+.sppn{
+    display: flex;
+
+    .ggg{
+        font-size: 32px;
+    }
+    .ggt{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .jigg{
+        margin-top: 15px;
+        font-size: 8px;
+    }
+}
+.footersection1 p:hover{color: #1ed760;}
+.footersection2 p:hover{color: #1ed760;}
+.footersection3 p:hover{color: #1ed760;}
+
+
+.spabaa{
+    position: absolute;
+    top: 400px;
+    display: flex;
+    gap: 500px;
+    margin-left: 50px;
+   
+}
+.al{
+    font-size: 12px;
+}

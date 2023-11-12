@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navc{
+    /* background-color: white; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+    gap: 120px;
+    padding-left: 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+
+   }
+.logoarea{
+   display: flex;
+   align-items: center;
+   gap: 2px;
+
+}
+.regg{
+   font-size: 4px;
+   margin-top: 5px;
+}
+.sp{
+   font-size: 26px;
+   /* font-weight: 700; */
+}
+.splo{
+   font-size: 32px;
+   margin-bottom: 15px;
+}
+.navmenu{
+   display: flex;
+   align-items: center;
+   gap: 50px;
+}
+
+.menu{
+   display: flex;
+   gap: 30px;
+}
+.startn{
+   width: 150px;
+   height: 40px;
+   font-weight: 600px;
+   background-color: black;
+   color: white;
+   border: none;
+   border-radius: 50px;
+   transition: 1s;
+}
+.startn:hover{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.containerrrt{
+   position: absolute;
+   padding-left:15px;
+   top: 70px;
+   background-color: white;
+   border: 1px solid black;
+   width: 200px;
+   height: 250px;
+   line-height: 40px;
+   display: none;
+   text-align: left;
+   z-index: 10;
+}
+.adn{
+   font-size: 20px;
+}
+.menud{
+   display: flex;
+   gap: 5px;
+   border: none;
+   background-color: transparent;
+   
+}
+.menud:hover{
+   color: rgba(0, 0, 0, 0.5);
+}
+.cntr{
+   padding-left: 0px;
+   list-style: none;
+   width: max-content;
+   /* background-color: yellow; */
+   font-size: 18px;
+  
+ 
+}
+.containerrrt .cntr li a{
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+}
+
+.menud:focus-within .containerrrt {
+   display: block;
+
+  
+}
+
+.containerrrtt{
+   position: absolute;
+   padding-left:15px;
+   top: 70px;
+   background-color: white;
+   border: 1px solid black;
+   width: 200px;
+   height: 280px;
+   line-height: 40px;
+   display: none;
+   text-align: left;
+   z-index: 10;
+}
+.containerrrtt .cntr li a{
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+}
+
+.menud:focus-within .containerrrtt {
+   display: block;
+
+  
+}
+
+.containerrrttt{
+   position: absolute;
+   padding-left:15px;
+   top: 70px;
+   background-color: white;
+   border: 1px solid black;
+   width: 200px;
+   height: 180px;
+   line-height: 40px;
+   display: none;
+   text-align: left;
+   z-index: 10;
+}
+.containerrrttt .cntr li a{
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+}
+
+.menud:focus-within .containerrrttt {
+   display: block;
+
+  
+}
+.balss{
+   position: relative;
+   height: 800px;
+   width: 100%;
+   background-color: white;
+   overflow: hidden;
+}
+.cosircle{
+   position: absolute;
+   top: 80px;
+   left: 30px;
+   height: 150px;
+   width: 150px;
+   border-radius: 100%;
+   background: linear-gradient(to left,rgb(211,231,238),rgba(198, 226, 230, 0.781),rgba(239, 195, 226, 0.603));
+   transition: all 2s;
+   
+}
+
+.cosircle:hover{
+   transform: scale(-1);
+}
+.cosirclebig{
+   position: relative;
+   top: -150px;
+   left: 600px;
+   height: 850px;
+   width: 850px;
+   border-radius: 100%;
+   background: linear-gradient(to bottom, rgba(237, 191, 217, 0.637),rgba(225, 236, 187, 0.765),rgb(214,239,151));
+   
+}
+
+.foodphone{
+   position: absolute;
+   top: 180px;
+   left: 250px;
+   width: 350px;
+   height: 680px;
+}
+.ballstext{
+   position: absolute;
+   top: 250px;
+   width: 700px;
+   left: 79px;
+}
+
+.ballstext h1{
+   font-size: 55px;
+   font-weight: 800;
+   font-family: sans-serif;
+   word-spacing: -10px;
+   line-height: 60px;
+}
+.ballstext p{
+   padding-top: 30px;
+   font-size: 20px;
+   font-weight:400;
+   font-family: sans-serif;
+   width: 650px;
+}
+
+.ballstext .ballb{
+   background-color: black;
+   border: none;
+   color: white;
+   margin-top: 20px;
+   font-size: 16px;
+   font-weight:400;
+   font-family: sans-serif;
+   height: 40px;
+   width: 150px;
+   border-radius: 50px;
+}
+.ballstext .ballb:hover{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+.ballarrow{
+   position: absolute;
+   bottom: 70px;
+   left: 100px;
+   border-radius: 100px;
+   height: 65px;
+   width: 65px;
+   font-size: 24px;
+   background-color: transparent;
+   border: 1px solid rgba(0, 0, 0, 0.215);
+   color: black;
+}
+
+.ballarrow:hover{
+   border: 1px solid  rgba(0, 0, 0, 0.096);
+   color: rgba(0, 0, 0, 0.527);
+}
+
+.greenadvert{
+  
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   height: 1150px;
+   width: 100%;
+   background-color: rgb(205,245,100);
+}
+.sashom{
+   position: absolute;
+   height: 500px;
+   right:650px;
+   top: 250px;
+
+}
+.withspo{
+   position: absolute;
+   left: 700px;
+   font-size: 18px;
+   top: 100px;
+   font-weight: 700;
+}
+.greenadvert button{
+   position: absolute;
+   height: 150px;
+   width: 400px;
+   font-size: 45px;
+   font-weight: 800;
+   text-align: left;
+   border: none;
+   top: 150px;
+   left: 700px;
+   line-height: 60px;
+   background-color: transparent;
+}
+.greenadvert p{
+   position: absolute;
+   left: 700px;
+   width: 420px;
+   top: 400px;
+   font-size: 20px;
+   font-weight: 400;
+}
+.undal{
+   position: absolute;
+   text-decoration: underline;
+   color: black;
+   left: 700px;
+   top: 530px;
+   font-size: 20px;
+   font-weight: 350;
+}
+.fade1{
+   position: absolute;
+   top:600px ;
+   font-size: 40px;
+   width: 450px;
+   left: 700px;
+   font-weight: 800;
+   word-spacing: -7px;
+   font-family: sans-serif;
+   color:  rgba(95, 95, 95, 0.632);
+   transition: all 2s;
+}
+.fade1:hover{
+   color: black;
+}
+
+.fade2{
+   position: absolute;
+   top:750px ;
+   font-size: 40px;
+   width: 450px;
+   left: 700px;
+   font-weight: 800;
+   word-spacing: -7px;
+   font-family: sans-serif;
+   color:  rgba(95, 95, 95, 0.632);
+   transition: all 2s;
+}
+.fade2:hover{
+   color: black;
+}
+.fade3{
+   position: absolute;
+   top:950px ;
+   font-size: 40px;
+   width: 450px;
+   left: 700px;
+   font-weight: 800;
+   word-spacing: -7px;
+   font-family: sans-serif;
+   color:  rgba(95, 95, 95, 0.632);
+   transition: all 2s;
+}
+.fade3:hover{
+   color: black;
+}
+
+.white2{
+   position: relative;
+   height: 1300px;
+   width: 100%;
+   background-color: white;
+}
+
+
+.sepsh{
+   position: absolute;
+   right: 100px;
+   top: 100px;
+   width: 450px;
+
+}
+.sepsh h2{
+   font-size: 50px;
+   font-weight: 700;
+   width: 400px;
+}
+.sepsh p{
+  padding-top: 20px;
+   font-size: 20px;
+   font-weight: 500;
+   
+}
+
+.tryimage button{
+   border: none;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2px;
+   margin-top: 70px;
+   font-size: 20px;
+   font-weight: 500;
+   text-decoration: underline;
+ 
+}
+
+.rirr{
+   padding: 0px 5px;
+   border-radius: 100%;
+   border: 1px solid rgba(0, 0, 0, 0.226);
+}
+.sashom2{
+   position: absolute;
+   height: 400px;
+   right:300px;
+    bottom: -10px;
+   transition: 1s;
+
+}
+.tryimage{
+   position: absolute;
+}
+
+.tryimage:hover{
+   .trybut{
+   color: rgba(0, 0, 0, 0.395);
+   }
+   .rirr{
+       color: rgba(0, 0, 0, 0.395);
+       border: 1px solid rgba(0, 0, 0, 0.112);
+   }
+   .sashom2{
+      height: 450px;
+       right: 270px;
+      
+}
+
+}
+
+.handss{
+   position: relative;
+   top: 700px;
+   padding-left: 140px;
+}
+
+.handss .sashom22{
+   position: absolute;
+   height: 350px;
+   right: 50px;
+   top: 50px;
+   transition: 1s;
+   
+}
+
+.handss h2{
+   font-size: 50px;
+   font-weight: 700;
+   width: 400px;
+}
+
+.handss p{
+   padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 450px;
+}
+
+.trybutt{
+   border: none;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+   gap: 2px;
+   font-size: 20px;
+   font-weight: 500;
+   text-decoration: underline;
+ 
+}
+
+.tryimagee:hover{
+   .trybutt{
+   color: rgba(0, 0, 0, 0.395);
+   }
+   .rirr{
+       color: rgba(0, 0, 0, 0.395);
+       border: 1px solid rgba(0, 0, 0, 0.112);
+   }
+   .sashom22{
+       position: absolute;
+       height: 370px;
+       right: 50px;
+       top: 50px;
+       
+}
+
+}

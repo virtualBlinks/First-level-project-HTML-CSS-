@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
+     <link rel="icon" href="spotify.svg">
+  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../../bootstrap-5.3.1-dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/77700015b1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<section>
+    <div class="home">
+        <p class="spotify fs-4 fw-bold text-light pt-4 ps-5"> <i class="bi bi-spotify fs-2 gg"></i>Spotify</p>
+    </div>
+
+    <div class="startlistening  text-light w-25">
+        <h1 class="ss">Sign up to start listening</h1>
+    </div>
+    <form action="">
+        <div class="fm">
+            <label class="label" for="Email address">Email address</label>
+            <div><input class="name" id="Email address" required type="email" placeholder="name@domain.com"></div>
+        <a
+            href="https://accounts.spotify.com/en/login/phone?intent=signup&continue=https%3A%2F%2Fopen.spotify.com%2F%3Fflow_ctx%3D71e9fe49-01ca-4e18-b9f7-b87ca09c3130%253A1694986259&flow_ctx=71e9fe49-01ca-4e18-b9f7-b87ca09c3130:1694986259&creation_point=https://www.skysports.com/?sp_cid=cb56d4395f442b84a19b6dd7792d7225&device=desktop">
+            <p class="use">Use phone number instead.</p>
+        </a>
+            <d class="nonedisplay">
+                <span><i class="bi bi-exclamation kj"></i></span>
+                <span class="this"> This email is invalid. Make sure it’s written like </span>
+                <p class="eg">example@email.com</p>
+            </d>
+            <button class="bttnm">Next</button>
+        </div>
+    </form>
+
+    <p class="or">or</p>
+    <div class="googlefacebook">
+        <a class="majorunder"
+            href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQDGIsvmwvsloJGDNQoKVPOMGbj%2FqRL0DLZOiT70TNk%2B5W2LY1nWR3iyKGQYqcpsgWl2LzuBFZFXP9lacGMS3Svv7vYEygm%2BvtTGLEgPU1YCnkgJJ%2B9ZXWaquIwuCMtj4gLQUITHSqrfi0YKVuK1dgUySjY88GUlyCAGqHuv6aeIvTNuxeJ%2BS%2Bx0MDQJAymuoWT006UfmEMe7FXVAtWnFeWDnXUFKVZTc6kXRbhHg5F57c5XGRz9bgRe4mv%2FB99yREC8WKIAEtpigSkafgYs%2F6EqVp0cAYMHeVkna9AH7qPJaIUA%2BAiSPeqODk439KbynKKQf%2B1rXcV%2FiqSPD29ncvl127uBkDadETtERTJgQ7Ee%2F9tqactlE1BTge8l1TOB7y0Ru76eo0cTAvtmBzvaNM0YC%2F%2FbkL7WYk70JFEyjutTw9AtUn%2F822gmxlCvLjrSwOAUwkIgX0ovyguOeN0K6znd9bFeeNZn%2FeLouGQ42eIygf0db7cUUqF1xqhYJYWtK%2Fz9lghgQD8aYk%2BQ%2FrZlKcKRLdhNOZDRMcpSPkQfTRyPqA8fTM%2FwRomkqkhvj7Nfsggyo%2FZ%2Fs9oXz80h6ydLhw%3D%3D&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect%2Fsignup&service=lso&o2v=2&flowName=GeneralOAuthFlow">
+                <div class="google">
+                <img src="googlelogo.png" alt="">
+                <button class="buttgoogle">Sign up with Google</button>
+            </div>
+        </a>
+        <a class="majorunder" href="https://www.spotify.com/ng/signup?flow_id=b31cbc10-10d7-4fd4-99fd-70dec0033226%3A1694986156&forward_url=https%3A%2F%2Fopen.spotify.com%2F%3Fflow_ctx%3Db31cbc10-10d7-4fd4-99fd-70dec0033226%253A1694986156%26creation_point%3Dhttps%253A%252F%252Fwww.skysports.com%252F%253Fsp_cid%253Dcb56d4395f442b84a19b6dd7792d7225&flow=accounts#method=facebook&id_token=eyJraWQiOiJzMEh3WFQtY0NQRTJMQXBfR1RJcEtRVUxIdmNlSEhQRTlVWmZUZ3p1Z0NrIiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJodHRwczpcL1wvc3BvdGlmeS5jb20iLCJpc3MiOiJodHRwczpcL1wvYWNjb3VudHMuc3BvdGlmeS5jb20iLCJleHAiOjE2OTQ5NjQ4NjIsImlhdCI6MTY5NDk2NDU2MiwiaWRwX2luZm8iOnsiZmFjZWJvb2siOnsiaWRlbnRpZmllcl90b2tlbiI6IkFnSE4wWkNXQ1hDNW5YamJpN3J0V05fZ0lBajdKaWRyNkpPRG51bHo2c3RfZGZqWWdvWkNZMV9iN21XdUVYdzZ0eHplMEszY3lud2xWYWJYMWhHLVdzeFloVEtaYllyYnFLbzM4ZGdkcGdMRGhYaW9iMHQ5Z3BmdFhWZ29oUkZ1S01VcE5ldlNzekQyUm5uWXMwZGQwYjhWVVE3cjNFcEE0YS1zY1prZ0pYdlY0bzZQR1FNTTVOUTFXOUlwcmhKN0dhLWRrRldJLUxQUWFwN182VTB0NGx3MEJIQW9kcktETzFXVVNiRWN1NVNiMDUxU0hmSW0tV2pBcEpiV3ZzMm1FdWNRNmFPemFQYkZqU19Hb1dJNDNTYnQ1aTBzRmxUbzFWYUJvYnpjemlTdW93em50aUc1T1MwZk1OYTJ1NTl2cGFlenp4RWszWm1JNnRhRkdST3d1dE02NmlqVGpRbGhyeFVlNURCY2gtQ1BKelhkVGpfMmZwbVcwdmtrQUhJU3ZrNDM5d2VEYVVMXzZnOEFTc1BXUWFsd1FBN2dBUEdoUnVHZ1FIaUVfNUZPUTFxX3B3U0dfWm5abTJjM2xXTXp6RkNYdkhFQW8yQkoifX19.dZxeZEke4ceaO4GQV7XKe4kdjEb76eeUGYAoHGkzbNT8WyPeUQNTzJQ679HpNfpOmFAxR9SazuZ_G1PBUBByxjdRi0KWUQKz7EpagQeP_NPShIzimeZwHpx43pRzmwYhGEAnDP2rcVYrVnd8vkdQGOexZm1WVrIkSm1YEBOCt2qiJqf9HDYssAEDwZ_ZSnitNTBVUFVXf1ZwVuYLdB1ApwNThnSki_V2_lPCOKz1yRAE_mqaqCBiInQXxdid6RGwIpQkWJxP1vaFYPP5WGELRhoHSqeuDqXbRzv9_SqOqWpunoDIMPKjnkLpjO0Kwg7UtF4EX3-ah_-VDrHGNIxORQ">
+            <div class="facebook">
+                <img src="facebooklogo.png" alt="">
+                <button class="buttfacebook">Sign up with Facebook</button>
+            </div>
+        </a>
+    </div>
+    <div class="last1">
+        <span class="alrdy">Already have an account? </span>
+     <a href="C:\Users\USER\Desktop\Frontend\Project\signin.html"><button class="loglog">Log in here.</button></a>   
+    </div>
+    <div class="last2">
+        <span class="thissite">This site is protected by reCAPTCHA and the Google span <a class="linka text-light"
+                href="https://policies.google.com/privacy"> <span class="under">Privacy Policy</span></a> and <a
+                class="linka text-light" href="https://policies.google.com/terms"><span class="under">Terms of
+                    Service</span></a> apply.</span>
+    </div>
+</section>
+</body>
+</html>

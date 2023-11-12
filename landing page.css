@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body main{
+    
+    background-color: black;
+    height: 2050px;
+    width: 100%;
+    position: relative;
+}
+
+
+.sidecontainer{
+    height: fit-content;
+     position: fixed;
+       background-color:black;
+       width: fit-content;
+}
+.sidecontainer:hover{
+    border-right: 1px solid rgba(96, 96, 96, 0.587);
+}
+
+.major1{
+    line-height: 30px;
+    padding: 20px 0px;
+    
+    .home{
+        font-size: large;
+        margin-left: 20px;
+        cursor: pointer;
+       
+    }
+}
+
+.major2{
+    width: 300px;
+    height: 390px;
+    margin-left: 10px;
+    /* position: relative; */
+    line-height: 50px;
+    padding: 10px 0px;
+    background-color:#121212;
+    margin-top: 5px;
+
+    
+
+    .home{
+        font-size: large;
+        margin-left: 10px;
+        cursor: pointer;
+       
+    }
+    .scrol{
+    height: 70px;
+    white-space: 100%;
+    background-color:black;
+    margin-top: 15px;
+   
+}
+
+.scrol::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 5px;
+    background-color: rgb(203, 202, 202);
+     display:none
+}
+.scrol:hover::-webkit-scrollbar{
+    display: block;
+    
+}
+
+.scrol::-webkit-scrollbar-thumb{
+background-color:grey;
+border-radius: 5px;
+}
+
+.lib{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+   
+   
+}
+.scrol1{
+  
+   padding: 0px 0px 15px 30px;
+   background-color: #242424;
+   
+ .btn{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 40px;
+   }
+
+}
+.scrol2{
+    margin-top: 20px;
+   padding:  0px 0px 15px 30px;
+   background-color: #242424;
+   .btn2{
+    height: 40px;
+    width: 170px;
+    font-weight: bold;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+}
+
+.flexwrap{
+    font-size: 11px;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    gap: 30px;
+    line-height: 5px;
+    justify-content: left;
+    align-items: start;
+    text-align: left;
+   
+}
+
+.btnn{
+    height: 37px;
+    width: 100px;
+    font-size: 15px;
+    gap: 5px;
+    margin-left: 20px;
+    font-weight: normal;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid rgb(75, 75, 75);
+     margin-top: 40px;
+   
+}
+ .btnn:hover{
+        border: 1px solid white;
+        transform: translatey(-1px);
+    }
+   
+}
+
+.directdiv{
+    width: 948px;
+    height: 90px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+   top: 0;
+    right: 0px;
+    align-items: center;
+    z-index: 30;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color:rgb(21, 21, 21);
+}
+
+.cardtop{
+    margin-right: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+
+    .siup{
+        width: 120px;
+        height: 50px;
+        border: none;
+        font-size: 14px;
+        border-radius: 15px;
+        background-color:black;
+        color:white;
+        transition: 1s;
+        font-weight: 600;
+    }
+    .sigin{
+        width: 120px;
+       height: 50px;
+        border: none;
+        border-radius: 15px;
+        background-color: rgb(131, 130, 130);
+        color: white;
+        transition: 1s;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+
+
+ .sigin:hover{
+    color: white;
+    background-color: black;
+   
+ }
+
+.siup:hover{
+  color: black;
+  background-color: white;
+  
+}
+
+.cardspace{
+    position: absolute;
+    left: 315px;
+    top: 91px;
+    width: 948px;
+    height: 1950px;
+    border-radius: 10px;
+    background:linear-gradient(to top, rgba(20, 20, 20, 0.927),rgba(0, 0, 0, 0.986), rgba(59, 59, 59, 0.457));
+}
+   
+.cardrow1{
+    position: absolute;
+    display: flex;
+    top: px;
+    right: 0;
+    width: 948px;
+  
+  
+   }
+   .cardrow2{
+       display: flex;
+       top: 450px;   
+       left: 20;
+       position: absolute;
+       
+   }
+   .cardrow3{
+    position: absolute;
+    display: flex;
+    top: 900px;
+    right: 0;
+    width: 948px;
+  
+  
+   }
+  
+.cc{
+    padding: 18px 18px 0px 18px;
+    z-index: 1;
+    color: white;
+    background:#121212;
+    border-radius: 5px;
+    height: fit-content;
+    width: 210px;
+    line-height: 20px;
+    cursor: pointer;
+    
+
+    
+}
+.gg{
+    margin-right: 20px;
+}
+
+   
+.cc:hover{
+    background-color: rgba(28, 28, 28, 0.852);
+}
+.cc:hover .play{
+    opacity: 1;
+}
+.cc:hover .p{
+    color: white;
+}
+
+.ccimg{
+    height: 175px;
+    border-radius: 5px;
+ 
+}
+.cc h3 {
+    font-size: 19px;
+    padding-top: 15px;
+}
+
+.cc p{
+    font-size: 13px;
+    width: 180px;
+    color: #636161;
+    font-weight: bold;
+    
+}
+.play{
+   position: relative;
+    padding: 15px 18px;
+    background-color: #1dd05d;
+    font-size: large;
+    border-radius: 100px;
+    bottom: 155px;
+    left:115px ;
+    opacity: 0;
+}
+
+.card1{
+    display: flex;
+    margin-left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 90px;
+   
+}
+.card2{
+    display: flex;
+    margin-left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 550px;
+   
+}
+.card3{
+    display: flex;
+    margin-left: 20px;
+    gap: 20px;
+    position: absolute;
+    top: 1000px;
+   
+}
+
+.footer{
+    position: absolute;
+    z-index: 1;
+    top: 1550px;
+    left: 20px;
+    color: white;
+    display: flex;
+    gap:140px ;
+    height: 280px;
+   
+    border-bottom: 1px solid rgba(128, 128, 128, 0.416);
+
+    .footersection1 h3{
+        font-size: 20px;
+       }
+        
+       .footersection2 h3{
+           font-size: 20px;
+       }
+       
+       .footersection3 h3{
+           font-size: 20px;
+       
+       } 
+       
+       .footersection1 p{
+           font-size: 16px;
+          }
+          .footersection1 p:hover{
+            text-decoration: underline;
+          }
+          .footersection2 p{
+              font-size: 16px;
+          }
+          .footersection2 p:hover{
+            text-decoration: underline;
+          }
+          .footersection3 p{
+              font-size: 16px;
+          
+          } 
+          .footersection3 p:hover{
+            text-decoration: underline;
+          }
+
+          .footersection4{
+            display: flex;
+            gap: 20px;
+            
+        }
+    
+    .footersection4{
+        display: flex;
+        
+    }
+     
+    
+    .dd{
+        padding: 7px 10px;
+        background-color:#3b3b3b;
+        border-radius: 100px;
+        
+    }
+    .dd:hover{
+        background-color: rgb(170, 170, 170);
+    }
+    
+      
+    }
+
+    .but{
+        height: 100px;
+        width: 100px;
+        color: green;
+    }
+    .james{
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        left: 20px;
+    }
+
+  
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
